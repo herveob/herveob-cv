@@ -28,7 +28,7 @@ const Skills = () => {
             <div className="skills">
                 <h2 className="h2">Langues</h2>
                 <Skill title="Français" rating={5}/>
-                <Skill title="Créol" rating={5}/>
+                <Skill title="Créole" rating={5}/>
                 <Skill title="Anglais" rating={4}/>
             </div>
             <Interest />
