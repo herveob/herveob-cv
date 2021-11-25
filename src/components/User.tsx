@@ -5,6 +5,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
 import EventIcon from '@material-ui/icons/Event';
 import LocationIcon from '@material-ui/icons/LocationOn';
+import moment from 'moment';
 
 const User = () => (
     <div className="user">
@@ -24,7 +25,7 @@ const User = () => (
                 <a href="mailto:herveob@gmail.com">herveob@gmail.com</a>
             </p>
             <p className="user__info">
-                <EventIcon /> Date de naissance : 11 Octobre 1986
+                <EventIcon /> Date de naissance : 11 Octobre 1986 ({moment().diff('1986-11-10', 'years')} ans)
             </p>
             <p className="user__info">
                 <LocationIcon /> Lieu de naissance : Pointe-à-Pitre

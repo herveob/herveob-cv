@@ -13,7 +13,6 @@ function App() {
         <div className="sidebar">
           <div className="actions">
             <DarkMode />
-            <button>pdf</button>
           </div>
           <User />
           <Skills />

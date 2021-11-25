@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
+import moment from 'moment';
 
-const Profil = () => {
-    return (
-        <div className="profil mb5">
-            <h2 className="h2">Profil</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum error veniam exercitationem dolorem accusantium fuga incidunt quaerat quasi optio corporis, totam provident recusandae nam sit excepturi. Dolor minima qui earum.</p>
-        </div>
-    )
-}
+const Profil = () => (
+    <div className="profil mb5">
+        <h2 className="h2">Profil</h2>
+        <p>Developpeur Javascript Fullstack {moment().year() - 2016} ans d'expériences</p>
+    </div>
+);
 
 export default Profil
