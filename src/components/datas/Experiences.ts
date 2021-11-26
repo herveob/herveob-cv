@@ -14,7 +14,7 @@ const DataExperiences: Experiences[] = [
     {
         id: 0,
         title: 'SOAT',
-        date: '07/2018 - aujourd\'huit',
+        date: `07/2018 - aujourd'hui`,
         location: 'Paris',
         text: `SSII`,
         missions: [
@@ -31,9 +31,9 @@ const DataExperiences: Experiences[] = [
     {
         id: 1,
         title: 'Air Liquide',
-        date: '05/2021 - aujourd\'huit',
+        date: `05/2021 - aujourd'hui`,
         location: 'Gentilly',
-        text: `Équipe Wale: Développement BACKEND et FRONT de la solution SAAS de signature de prescription médicale pour les médecins soignant des maladies nécessitant des équipements ou des consommables tel que le diabète et l'apnée du sommeil`,
+        text: `Équipe Wale: Développement BACKEND et FRONT de la solution SAAS de signature de prescription médicale pour les médecins soignants des maladies nécessitant des équipements ou des consommables tels que le diabète et l'apnée du sommeil`,
         missions: [
             // {
             //     id: 1,
@@ -54,7 +54,7 @@ const DataExperiences: Experiences[] = [
         missions: [
             {
                 id: 1,
-                title: 'Mise à jour des règles de génération de KPI'
+                title: 'Mise à jour des règles de générations de KPI'
             },
             {
                 id: 2,
@@ -71,7 +71,7 @@ const DataExperiences: Experiences[] = [
         title: 'SEPHORA SAS',
         date: '07/2020 - 12/2020',
         location: 'Paris',
-        text: `Création d'un back-end pour l'enregistrement des commandes click and collect des magasin Sephora, afin de mettre à disposition les données pour une application IOS utilisé par les vendeurs/vendeuses en magasin.`,
+        text: `Création d'un back-end pour l'enregistrement des commandes click and collect des magasins Sephora, afin de mettre à disposition les données pour une application iOS utilisé par les vendeurs/vendeuses en magasin.`,
         missions: [
             {
                 id: 1,
@@ -88,11 +88,11 @@ const DataExperiences: Experiences[] = [
         title: 'VSC TECHNOLOGIES',
         date: '02/2019 - 07/2020',
         location: 'Paris',
-        text: `L'équipe WEBANALYTICS, est chargée de l'intégration et de la maintenance des tags gérant Ominiture (adobe) et Eulerian Analytics pour gérer le tracking des utilisateurs du site oui.sncf`,
+        text: `L'équipe WEBANALYTICS, est chargée de l'intégration et de la maintenance des tags gérant Ominiture (Adobe) et Eulerian Analytics pour gérer le tracking des utilisateurs du site oui.sncf`,
         missions: [
             {
                 id: 1,
-                title: `Amélioration / Refonte du framework de tracking (passage d'un legacy en Javascript a une application modulaire en Typescript)`,
+                title: `Amélioration / Refonte du framework de tracking (passage d'un legacy en Javascript à une application modulaire en Typescript)`,
             },
             {
                 id: 2,
@@ -109,7 +109,7 @@ const DataExperiences: Experiences[] = [
         title: 'E-TF1',
         date: '01/2018 - 11/2018',
         location: 'Boulogne-Billancourt',
-        text: `Projet SVOD TFOUMAX : Le pôle payants’occupe du développement BackEnd et Front-End des plateformes de VOD MyTF1VOD et SVOD TFOUMAX`,
+        text: `Projet SVOD TFOUMAX : Le pôle "Payant" s’occupe du développement BackEnd et Front-End des plateformes de VOD MyTF1VOD et SVOD TFOUMAX`,
         missions: [
             {
                 id: 1,
@@ -138,7 +138,7 @@ const DataExperiences: Experiences[] = [
         title: 'RAKUTEN',
         date: '12/2010 - 11/2017',
         location: 'Paris',
-        text: `RAKUTEN / Priceminister est un site de E-commerce pratiquant la vente indirecte. Ilse place en tiers de confiance entre un acheteur et un vendeur`,
+        text: `RAKUTEN / Priceminister est un site de E-commerce pratiquant la vente indirecte. Il se place en tiers de confiance entre un acheteur et un vendeur`,
         missions: [
             {
                 id: 1,
