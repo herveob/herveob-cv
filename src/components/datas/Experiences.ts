@@ -17,32 +17,27 @@ const DataExperiences: Experiences[] = [
         date: `07/2018 - aujourd'hui`,
         location: 'Paris',
         text: `SSII`,
-        missions: [
-            // {
-            //     id: 1,
-            //     title: 'mission1'
-            // },
-            // {
-            //     id: 2,
-            //     title: 'mission2'
-            // }
-        ]
+        missions: []
     },
     {
         id: 1,
         title: 'Air Liquide',
-        date: `05/2021 - aujourd'hui`,
+        date: `05/2021 - 03/2022`,
         location: 'Gentilly',
         text: `Équipe Wale: Développement BACKEND et FRONT de la solution SAAS de signature de prescription médicale pour les médecins soignants des maladies nécessitant des équipements ou des consommables tels que le diabète et l'apnée du sommeil`,
         missions: [
-            // {
-            //     id: 1,
-            //     title: 'mission1'
-            // },
-            // {
-            //     id: 2,
-            //     title: 'mission2'
-            // }
+            {
+                id: 1,
+                title: 'Maintenance opératienelle extranet et BackOffice medecin'
+            },
+            {
+                id: 2,
+                title: 'Mise en place BackEnd et FrontEnd extranet et BackOffice patient'
+            },
+            {
+                id: 3,
+                title: 'Mise en place des test unitaire (JEST) sur les API patient'
+            }
         ]
     },
     {
