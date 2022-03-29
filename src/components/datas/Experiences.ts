@@ -24,7 +24,7 @@ const DataExperiences: Experiences[] = [
         title: 'Air Liquide',
         date: `05/2021 - 03/2022`,
         location: 'Gentilly',
-        text: `Équipe Wale: Développement BACKEND et FRONT de la solution SAAS de signature de prescription médicale pour les médecins soignants des maladies nécessitant des équipements ou des consommables tels que le diabète et l'apnée du sommeil`,
+        text: `Équipe WALE: Développement BACKEND et FRONT de la solution SAAS de signature de prescription médicale pour les médecins soignants des maladies tels que le diabète et l'apnée du sommeil nécessitant des équipements ou des consommables`,
         missions: [
             {
                 id: 1,
