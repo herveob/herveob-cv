@@ -3,6 +3,9 @@ import Skill, { SkillProps } from './Skill'
 import Tools, { Props as ToolsListType } from './Tools';
 import Interest from './Interest';
 import "./Skills.css";
+import LinkedinIcon from './customIcons/linkedin/Linkedin';
+// import MaltIcon from './customIcons/malt/Malt';
+import { Link } from '@material-ui/core';
 
 const Skills = () => {
     const skillList: SkillProps[] = [
@@ -20,7 +23,7 @@ const Skills = () => {
         }
     ];
 
-    const toolsList: ToolsListType [] = [
+    const toolsList: ToolsListType[] = [
         {
             category: 'Frameworks Backend',
             list: ['EXPRESSJS'],
@@ -49,13 +52,19 @@ const Skills = () => {
 
     return (
         <>
+            <div>
+                <p className="user__info">
+                <Link href="https://www.linkedin.com/in/herveob" target="_blank"><LinkedinIcon />www.linkedin.com/in/herveob</Link>
+                    
+                </p>
+            </div>
             <div className="skills">
                 <h2 className="h2">Compétences</h2>
                 {skillList.map((skill) => (<Skill key={skill.title} title={skill.title} rating={skill.rating} />))}
             </div>
             <div className="skills">
                 <h2 className="h2">Outils</h2>
-                { toolsList.map((tool) => (<Tools category={tool.category} list={tool.list} />)) }
+                {toolsList.map((tool) => (<Tools category={tool.category} list={tool.list} />))}
             </div>
             <div className="skills">
                 <h2 className="h2">Langues</h2>
